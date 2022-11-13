@@ -1,0 +1,2521 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="genderButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="maritalStatusButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="employmentStatusButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="existingEmployeeMaritalStatusButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="existingEmployeeGenderButtonGroup">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="existingEmploymentStatusButtonGroup">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+      <Dimension value="[903, 1100]"/>
+    </Property>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,4,-67,0,0,4,-36"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JTabbedPane" name="employeeTabbedPane">
+      <Properties>
+        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+          <Dimension value="[903, 1100]"/>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="existingEmployeePanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="Existing Employee">
+                <Property name="tabTitle" type="java.lang.String" value="Existing Employee"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="searchPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Search"/>
+                  </Border>
+                </Property>
+              </Properties>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                  <BorderConstraints direction="First"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="searchComboBox" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="searchBarTextField" max="32767" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="searchButton" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="jScrollPane1" pref="1261" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="removeEmployeeButton" min="-2" pref="251" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="searchComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="searchBarTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="searchButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jScrollPane1" min="-2" pref="80" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="removeEmployeeButton" min="-2" pref="39" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JComboBox" name="searchComboBox">
+                  <Properties>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="3">
+                        <StringItem index="0" value="Get all"/>
+                        <StringItem index="1" value="ID"/>
+                        <StringItem index="2" value=" "/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JTextField" name="searchBarTextField">
+                </Component>
+                <Component class="javax.swing.JButton" name="searchButton">
+                  <Properties>
+                    <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                      <Image iconType="3" name="/search.png"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Search"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="searchButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+                  <AuxValues>
+                    <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                  </AuxValues>
+
+                  <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                  <SubComponents>
+                    <Component class="javax.swing.JTable" name="searchResultsTable">
+                      <Properties>
+                        <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                          <Table columnCount="2" rowCount="0">
+                            <Column editable="true" title="Employee ID" type="java.lang.String"/>
+                            <Column editable="true" title="Employee Name" type="java.lang.Object"/>
+                          </Table>
+                        </Property>
+                        <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                          <TableColumnModel selectionModel="0">
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                            <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                              <Title/>
+                              <Editor/>
+                              <Renderer/>
+                            </Column>
+                          </TableColumnModel>
+                        </Property>
+                        <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                          <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                        </Property>
+                      </Properties>
+                      <Events>
+                        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="searchResultsTableMouseClicked"/>
+                      </Events>
+                    </Component>
+                  </SubComponents>
+                </Container>
+                <Component class="javax.swing.JButton" name="removeEmployeeButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Remove records of this employee"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="removeEmployeeButtonActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JTabbedPane" name="existingEmployeeDetailsTabbedPane">
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+                  <BorderConstraints direction="Center"/>
+                </Constraint>
+              </Constraints>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="otherDetailsPanel">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Other details">
+                        <Property name="tabTitle" type="java.lang.String" value="Other details"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="existingEmployeeEmploymentDetailsPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="existingEmployeePersonalDetailsPanel" alignment="0" pref="1244" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="existingEmployeePersonalDetailsPanel" min="-2" pref="210" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="existingEmployeeEmploymentDetailsPanel" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="existingEmployeeEmploymentDetailsPanel">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Employment Details"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="existingEmployeeDapartmentLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="existingEmployeeDesignationLabel" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="existingEmployeeDesignationTextField" alignment="0" max="32767" attributes="0"/>
+                                              <Component id="existingEmployeeDepartmentTextField" alignment="0" min="-2" pref="134" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="existingEmployeeIDLabel" min="-2" pref="105" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="existingEmployeeIDTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="existingEmployeeManagerIDLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="existingEmployeeManagerIDTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="existingEmployeeDateOfJoinLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace max="32767" attributes="0"/>
+                                                  <Component id="existingEmployeeDateOfJoiningTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                  <Component id="existingEmployeeOTRateTextField" min="-2" pref="344" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="existingEmployeeWorkHoursPerDayLabel" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeSalaryLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeWorkWeekLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Component id="existingEmployeeWorkHoursPerDayTextField" min="-2" pref="82" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Component id="existingEmployeeSalaryTextField" max="32767" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="180" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeMondayCheckBox" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeTuesdayCheckBox" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeWednesdayCheckBox" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeThursdayCheckBox" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeFridayCheckBox" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeSaturdayCheckBox" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeSundayCheckBox" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="0" pref="56" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="existingEmployeeBankAccountNumberLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeBankNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeBankBranchLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="existingEmployeeBankNumberTextField" max="32767" attributes="0"/>
+                                                      <Component id="existingEmployeeBankNameTextField" max="32767" attributes="0"/>
+                                                      <Component id="existingEmployeeBankBranchTextField" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="136" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="existingEmployeeCalculateHourRateButton" min="-2" pref="157" max="-2" attributes="0"/>
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeCalculateHourRateTextField" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="existingEmployeeQualificationsLabel" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="1" attributes="0">
+                                                                  <Component id="newEmployeeAgreementLabel1" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="existingEmployeeDateOfLeaveTextField" pref="405" max="32767" attributes="0"/>
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="existingEmployeeActiveRadioButton" min="-2" pref="67" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Component id="existingEmployeeQualificationsUploadButton" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="existingEmployeeQualificationsFileName" max="32767" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="existingEmployeeQualificationsViewButton" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="existingEmployeeAgreementUploadButton" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="existingEmployeeAgreementFileName" max="32767" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="existingEmployeeAgreementViewButton" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="existingEmployeeQualificationsRemoveButton" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeAgreementRemoveButton" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="existingEmployeeOTRateLabel" min="-2" pref="58" max="-2" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="existingEmployeeEmploymentStatusLabel" min="-2" pref="117" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="104" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeInactiveRadioButton" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Component id="existingEmployeeDateOfLeaveLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="updateEmploymentDetailsButton" min="-2" pref="192" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeDapartmentLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeDepartmentTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeIDTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeManagerIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeManagerIDTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeDesignationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeDesignationTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeDateOfJoinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeDateOfJoiningTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeSundayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeSaturdayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeFridayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeThursdayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeWednesdayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeTuesdayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeMondayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeWorkWeekLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeOTRateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeOTRateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeWorkHoursPerDayTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeWorkHoursPerDayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeSalaryTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeSalaryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeCalculateHourRateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeCalculateHourRateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="existingEmployeeBankAccountNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeBankNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeQualificationsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeQualificationsUploadButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="existingEmployeeBankNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeBankNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Component id="existingEmployeeQualificationsFileName" min="-2" pref="22" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="existingEmployeeBankBranchLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="existingEmployeeBankBranchTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="existingEmployeeEmploymentStatusLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="existingEmployeeActiveRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="existingEmployeeInactiveRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="existingEmployeeQualificationsViewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="existingEmployeeQualificationsRemoveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="3" attributes="0">
+                                                      <Component id="existingEmployeeAgreementViewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeAgreementRemoveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="existingEmployeeAgreementFileName" min="-2" pref="22" max="-2" attributes="0"/>
+                                                      <Group type="103" groupAlignment="3" attributes="0">
+                                                          <Component id="existingEmployeeAgreementUploadButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="newEmployeeAgreementLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="existingEmployeeDateOfLeaveLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeDateOfLeaveTextField" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="247" max="32767" attributes="0"/>
+                                  <Component id="updateEmploymentDetailsButton" min="-2" pref="36" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeDesignationLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Designation"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeDesignationTextField">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeSalaryTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="newEmployeeAgreementLabel1">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Employment Agreement"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="existingEmployeeAgreementUploadButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Upload"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="existingEmployeeAgreementUploadButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeIDLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Employee ID"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeIDTextField">
+                          <Properties>
+                            <Property name="editable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeEmploymentStatusLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Employment status"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="existingEmployeeActiveRadioButton">
+                          <Properties>
+                            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                              <ComponentRef name="existingEmploymentStatusButtonGroup"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Active"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="existingEmployeeInactiveRadioButton">
+                          <Properties>
+                            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                              <ComponentRef name="existingEmploymentStatusButtonGroup"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Inactive"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeDateOfJoinLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Date of joining"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeDateOfJoiningTextField">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="yyyy-mm-dd"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeBankAccountNumberLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Bank Account Number"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeBankNumberTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeBankNameLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Bank name "/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeBankNameTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeBankBranchLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Bank branch"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeBankBranchTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeManagerIDLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Manager ID"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeManagerIDTextField">
+                        </Component>
+                        <Component class="javax.swing.JButton" name="existingEmployeeAgreementViewButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="View"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="existingEmployeeAgreementViewButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeAgreementFileName">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeDapartmentLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Department"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeDepartmentTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeQualificationsLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Qualifications"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="existingEmployeeQualificationsUploadButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Upload"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="existingEmployeeQualificationsUploadButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="existingEmployeeQualificationsViewButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="View"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="existingEmployeeQualificationsViewButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeQualificationsFileName">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeOTRateLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="OT Rate"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeCalculateHourRateTextField">
+                          <Properties>
+                            <Property name="editable" type="boolean" value="false"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeOTRateTextField">
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="existingEmployeeMondayCheckBox">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Mon"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="existingEmployeeTuesdayCheckBox">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Tue"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="existingEmployeeTuesdayCheckBoxActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="existingEmployeeWednesdayCheckBox">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Wed"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="existingEmployeeThursdayCheckBox">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Thu"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="existingEmployeeFridayCheckBox">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Fri"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="existingEmployeeSaturdayCheckBox">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Sat"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JCheckBox" name="existingEmployeeSundayCheckBox">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Sun"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeWorkWeekLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Work Week"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeWorkHoursPerDayTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeWorkHoursPerDayLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Work hours per day"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeSalaryLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Salary"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="existingEmployeeCalculateHourRateButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Calculate Hour Rate"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="existingEmployeeCalculateHourRateButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeDateOfLeaveLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Date of leave"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeDateOfLeaveTextField">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="yyyy-mm-dd"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="updateEmploymentDetailsButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Update Employment Details"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateEmploymentDetailsButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="existingEmployeeQualificationsRemoveButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Remove"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="existingEmployeeQualificationsRemoveButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="existingEmployeeAgreementRemoveButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Remove"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="existingEmployeeAgreementRemoveButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="existingEmployeePersonalDetailsPanel">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Personal Details"/>
+                          </Border>
+                        </Property>
+                        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
+                          <Dimension value="[300, 252]"/>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="existingEmployeeAddressLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="existingEmployeeAddressTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Component id="existingEmployeeNICLabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeNICTextField" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="existingEmployeeFirstNameLabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeFirstNameTextField" pref="123" max="32767" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeMiddleNameLabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeMiddleNameTextField" pref="123" max="32767" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                                          <Component id="newEmployeeLastNameLabel1" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeLastNameTextField" pref="125" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="existingEmployeeBirthdayLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="existingEmployeeBirthdayTextField" pref="264" max="32767" attributes="0"/>
+                                                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="existingEmployeeBloodGroupLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeNationalityLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="0" attributes="0">
+                                                  <Component id="existingEmployeeGenderLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="existingEmployeeOtherRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="existingEmployeeMaleRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace min="-2" pref="871" max="-2" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="existingEmployeeFemaleRadioButton" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace max="32767" attributes="0"/>
+                                                          <Component id="existingEmployeeMarritalStatusLabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                          </Group>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="existingEmployeeNationalityTextField" pref="230" max="32767" attributes="0"/>
+                                              <Component id="existingEmployeeBloodGroupTextField" max="32767" attributes="0"/>
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="existingEmployeeUnmarriedRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeMarriedRadioButton" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeNICLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeNICTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeBirthdayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeNationalityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeNationalityTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeBirthdayTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeFirstNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeFirstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeMiddleNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeMiddleNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeLastNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeLastNameLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeBloodGroupLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeBloodGroupTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                          <Component id="existingEmployeeGenderLabel" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="existingEmployeeMaleRadioButton" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                          <Component id="existingEmployeeFemaleRadioButton" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="existingEmployeeOtherRadioButton" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="existingEmployeeMarriedRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="existingEmployeeMarritalStatusLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                                          <Component id="existingEmployeeUnmarriedRadioButton" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeAddressLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeAddressTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeNICLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="NIC"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeNICTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeBirthdayLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Birthday"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeFirstNameLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="First"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeFirstNameTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeMiddleNameLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Middle"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeMiddleNameTextField">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeLastNameTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="newEmployeeLastNameLabel1">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Last"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeGenderLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Gender"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeBloodGroupLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Blood group"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeNationalityLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Nationality"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeBloodGroupTextField">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeNationalityTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeAddressLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Permanant Address"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeAddressTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeMarritalStatusLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Marrital status"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JFormattedTextField" name="existingEmployeeBirthdayTextField">
+                          <Properties>
+                            <Property name="editable" type="boolean" value="false"/>
+                            <Property name="text" type="java.lang.String" value="yyyy-mm-dd"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="existingEmployeeMaleRadioButton">
+                          <Properties>
+                            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                              <ComponentRef name="existingEmployeeGenderButtonGroup"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Male"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="existingEmployeeFemaleRadioButton">
+                          <Properties>
+                            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                              <ComponentRef name="existingEmployeeGenderButtonGroup"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Female"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="existingEmployeeOtherRadioButton">
+                          <Properties>
+                            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                              <ComponentRef name="existingEmployeeGenderButtonGroup"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Other"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="existingEmployeeMarriedRadioButton">
+                          <Properties>
+                            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                              <ComponentRef name="existingEmployeeMaritalStatusButtonGroup"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Married"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JRadioButton" name="existingEmployeeUnmarriedRadioButton">
+                          <Properties>
+                            <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                              <ComponentRef name="existingEmployeeMaritalStatusButtonGroup"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="Unmarried"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+                <Container class="javax.swing.JPanel" name="jobDetailsPanel">
+                  <Constraints>
+                    <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+                      <JTabbedPaneConstraints tabName="Job details">
+                        <Property name="tabTitle" type="java.lang.String" value="Job details"/>
+                      </JTabbedPaneConstraints>
+                    </Constraint>
+                  </Constraints>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="todayPanel" alignment="1" max="32767" attributes="0"/>
+                          <Component id="existingEmployeeContactDetailsPanel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="workHistoryPanel" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="todayPanel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="existingEmployeeContactDetailsPanel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="workHistoryPanel" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JPanel" name="todayPanel">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Today"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="clockedInLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="clockedInTextField" max="32767" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                                  <Component id="workLocationLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                                  <Component id="workLocationTextField" min="-2" pref="170" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="clockedOutLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                                                  <Component id="clockedOutTextField" pref="182" max="32767" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+                                                  <Component id="workDescriptionLabel" min="-2" max="-2" attributes="0"/>
+                                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                  <Component id="workDescriptionTextField" min="-2" pref="170" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="586" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="uploadDayDetailsButton" min="-2" pref="147" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="commentsLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="83" max="-2" attributes="0"/>
+                                          <Component id="commentsTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="clockedInTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clockedInLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workLocationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workLocationTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="clockedOutTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="clockedOutLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workDescriptionTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="commentsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="commentsTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="uploadDayDetailsButton" min="-2" pref="33" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JTextField" name="clockedInTextField">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="hh:mm:ss"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="clockedInLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Clock in"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="clockedOutLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Clock out"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="clockedOutTextField">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="hh:mm:ss"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workLocationLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Current Work Location"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="workLocationTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workDescriptionLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Current Work Desciption"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="workDescriptionTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="commentsLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Comments"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="commentsTextField">
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="commentsTextFieldActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="uploadDayDetailsButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Upload Details"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="uploadDayDetailsButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="existingEmployeeContactDetailsPanel">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Contact Details"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="updateContactDetailsButton" min="-2" pref="176" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="existingEmployeeEmailLabel" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="existingEmployeeContactNumberLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="existingEmployeeEmailTextField" pref="374" max="32767" attributes="0"/>
+                                                      <Component id="existingEmployeeContactNumberTextField" max="32767" attributes="0"/>
+                                                  </Group>
+                                                  <EmptySpace min="-2" pref="50" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="existingEmployeeEmergencyContactRelationshipLabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeEmergencyContactRelationshipTextField" pref="375" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="existingEmployeeEmergencyContactNumberLabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeEmergencyContactNumberTextField" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="existingEmployeeEmergencyContactPersonLabel" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                                          <Component id="existingEmployeeEmergencyContactPersonTextField" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="existingEmployeeCorrespondanceAddressLabel" min="-2" pref="154" max="-2" attributes="0"/>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Component id="existingEmployeeCorrespondanceAddressTextField" max="32767" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeContactNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeContactNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeEmergencyContactNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeEmergencyContactNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeEmailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeEmailTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeEmergencyContactPersonLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeEmergencyContactPersonTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeEmergencyContactRelationshipLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeEmergencyContactRelationshipTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="existingEmployeeCorrespondanceAddressLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="existingEmployeeCorrespondanceAddressTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="updateContactDetailsButton" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace pref="16" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeContactNumberLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Contact Number"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeContactNumberTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeEmailLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="E-mail (Optional)"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeEmailTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeEmergencyContactNumberLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Emergency contact number"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeEmergencyContactNumberTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeEmergencyContactPersonLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Emergency contact person"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeEmergencyContactPersonTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeEmergencyContactRelationshipLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Relationship with emergency contact person"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeEmergencyContactRelationshipTextField">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="existingEmployeeCorrespondanceAddressLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Correspondance Address"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="existingEmployeeCorrespondanceAddressTextField">
+                        </Component>
+                        <Component class="javax.swing.JButton" name="updateContactDetailsButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Update Contact Details"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateContactDetailsButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JPanel" name="workHistoryPanel">
+                      <Properties>
+                        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                            <TitledBorder title="Work History"/>
+                          </Border>
+                        </Property>
+                      </Properties>
+
+                      <Layout>
+                        <DimensionLayout dim="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jScrollPane2" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="workHistoryFilterDayLabel" min="-2" pref="63" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="filterDateChooser" min="-2" pref="550" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                          <Component id="filterWorkHistoryButton" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="workHistoryDayLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="44" max="-2" attributes="0"/>
+                                          <Component id="workHistoryDateChooser" min="-2" pref="479" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="workHistoryClockedInLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                          <Component id="workHistoryClockedInTextField" min="-2" pref="197" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="workHistoryClockedOutLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="workHistoryClockedOutTextField" min="-2" pref="255" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="workHistoryLocationLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                              <Component id="workHistoryCommentLabel" min="-2" max="-2" attributes="0"/>
+                                              <Component id="workHistoryDescriptionLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="workHistoryLocationTextField" max="32767" attributes="0"/>
+                                              <Component id="workHistoryDescriptionTextField" max="32767" attributes="0"/>
+                                              <Component id="workHistoryCommentTextField" alignment="0" max="32767" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Component id="updateWorkHistoryRecordButton" min="-2" pref="133" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="removeWorkHistoryRecordButton" min="-2" pref="130" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                        <DimensionLayout dim="1">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="workHistoryFilterDayLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="filterDateChooser" min="-2" max="-2" attributes="0"/>
+                                      <Component id="filterWorkHistoryButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Component id="jScrollPane2" min="-2" pref="93" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="workHistoryClockedInLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="workHistoryClockedOutLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="workHistoryClockedInTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="workHistoryClockedOutTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="workHistoryDateChooser" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workHistoryDayLabel" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="workHistoryLocationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workHistoryLocationTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="workHistoryDescriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workHistoryDescriptionTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="workHistoryCommentLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="workHistoryCommentTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="updateWorkHistoryRecordButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="removeWorkHistoryRecordButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace pref="138" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                        </DimensionLayout>
+                      </Layout>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="workHistoryFilterDayLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Day"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="filterWorkHistoryButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Filter"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="filterWorkHistoryButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+                          <AuxValues>
+                            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+                          </AuxValues>
+
+                          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+                          <SubComponents>
+                            <Component class="javax.swing.JTable" name="workHistoryTable">
+                              <Properties>
+                                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                                  <Table columnCount="3" rowCount="0">
+                                    <Column editable="true" title="Date" type="java.lang.Object"/>
+                                    <Column editable="true" title="Clocked In" type="java.lang.Object"/>
+                                    <Column editable="true" title="Clocked Out" type="java.lang.Object"/>
+                                  </Table>
+                                </Property>
+                                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                                  <TableColumnModel selectionModel="0">
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                                      <Title/>
+                                      <Editor/>
+                                      <Renderer/>
+                                    </Column>
+                                  </TableColumnModel>
+                                </Property>
+                                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                                </Property>
+                              </Properties>
+                              <Events>
+                                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="workHistoryTableMouseClicked"/>
+                              </Events>
+                            </Component>
+                          </SubComponents>
+                        </Container>
+                        <Component class="javax.swing.JButton" name="updateWorkHistoryRecordButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Update Record"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateWorkHistoryRecordButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="removeWorkHistoryRecordButton">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Remove record"/>
+                          </Properties>
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="removeWorkHistoryRecordButtonActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workHistoryDayLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Day"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workHistoryLocationLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Work Location"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workHistoryDescriptionLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Work Desciption"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workHistoryClockedOutLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Clocked Out"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workHistoryClockedInLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Clocked In"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="workHistoryClockedInTextField">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="hh:mm:ss"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="workHistoryClockedOutTextField">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="hh:mm:ss"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="workHistoryCommentLabel">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Comments"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="workHistoryLocationTextField">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="workHistoryDescriptionTextField">
+                        </Component>
+                        <Component class="javax.swing.JTextField" name="workHistoryCommentTextField">
+                        </Component>
+                        <Component class="com.toedter.calendar.JDateChooser" name="filterDateChooser">
+                        </Component>
+                        <Component class="com.toedter.calendar.JDateChooser" name="workHistoryDateChooser">
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="newEmployeePanel">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout" value="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout$JTabbedPaneConstraintsDescription">
+              <JTabbedPaneConstraints tabName="New Employee">
+                <Property name="tabTitle" type="java.lang.String" value="New Employee"/>
+              </JTabbedPaneConstraints>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="newEmployeePersonalDetailsPanel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="newEmployeeEmploymentDetailsPanel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="newEmployeeContactDetailsPanel" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="newEmployeeClearFormButton" min="-2" pref="208" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="newEmployeeAddButton" min="-2" pref="231" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="newEmployeePersonalDetailsPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="newEmployeeContactDetailsPanel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="newEmployeeEmploymentDetailsPanel" max="32767" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="newEmployeeClearFormButton" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                          <Component id="newEmployeeAddButton" alignment="3" min="-2" pref="41" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="newEmployeeAddButton">
+              <Properties>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/add.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Add New Employee"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeAddButtonActionPerformed"/>
+              </Events>
+            </Component>
+            <Container class="javax.swing.JPanel" name="newEmployeePersonalDetailsPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Personal Details"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="newEmployeeNICLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeNICTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="newEmployeeFirstNameLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeFirstNameTextField" max="32767" attributes="0"/>
+                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeMiddleNameLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeMiddleNameTextField" max="32767" attributes="0"/>
+                                          <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeLastNameLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeLastNameTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newEmployeeBirthdayLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newEmployeeBirthdayTextField" max="32767" attributes="0"/>
+                                  <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="newEmployeeNationalityLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeNationalityTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="newEmployeeBloodGroupLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeBloodGroupTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="newEmployeeMarritalStatusLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="newEmployeeUnmarriedRadioButton" min="-2" max="-2" attributes="0"/>
+                                              <Component id="newEmployeeMarriedRadioButton" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="newEmployeeGenderLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="newEmployeeOtherRadioButton" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeFemaleRadioButton" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeMaleRadioButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="newEmployeeAddressLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="newEmployeeAddressTextField" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="newEmployeeNICLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeNICTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeBirthdayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeNationalityLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeNationalityTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeBirthdayTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="newEmployeeFirstNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeFirstNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeMiddleNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeMiddleNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeLastNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeLastNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeBloodGroupLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeBloodGroupTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="newEmployeeGenderLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeMaleRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                                  <Component id="newEmployeeMarritalStatusLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newEmployeeMarriedRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeUnmarriedRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeFemaleRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="newEmployeeOtherRadioButton" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeAddressLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeAddressTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="30" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="newEmployeeNICLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="NIC"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeNICTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeBirthdayLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Birthday"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeFirstNameLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="First"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeFirstNameTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeMiddleNameLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Middle"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeMiddleNameTextField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeLastNameTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeLastNameLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Last"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeGenderLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Gender"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeBloodGroupLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Blood group"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeNationalityLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Nationality"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeBloodGroupTextField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeNationalityTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeAddressLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Permanant Address"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeAddressTextField">
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="newEmployeeMaleRadioButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="genderButtonGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Male"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeMarritalStatusLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Marrital status"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="newEmployeeMarriedRadioButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="maritalStatusButtonGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Married"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="newEmployeeUnmarriedRadioButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="maritalStatusButtonGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Unmarried"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="newEmployeeFemaleRadioButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="genderButtonGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Female"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="newEmployeeOtherRadioButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="genderButtonGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Other"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JFormattedTextField" name="newEmployeeBirthdayTextField">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="dd/mm/yyyy"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="newEmployeeContactDetailsPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Contact Details"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="newEmployeeEmailLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeEmailTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="newEmployeeContactNumberLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeContactNumberTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="newEmployeeEmergencyContactRelationshipLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="34" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeEmergencyContactRelationshipTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="newEmployeeEmergencyContactNumberLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeEmergencyContactNumberTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="newEmployeeEmergencyContactPersonLabel" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeEmergencyContactPersonTextField" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="newEmployeeCorrespondanceAddressLabel" min="-2" pref="154" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="newEmployeeCorrespondanceAddressTextField" min="-2" pref="1068" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeContactNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeContactNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeEmergencyContactNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeEmergencyContactNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeEmailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeEmailTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeEmergencyContactPersonLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeEmergencyContactPersonTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeEmergencyContactRelationshipLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeEmergencyContactRelationshipTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeCorrespondanceAddressLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeCorrespondanceAddressTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="23" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="newEmployeeContactNumberLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Contact Number"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeContactNumberTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeEmailLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="E-mail (Optional)"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeEmailTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeEmergencyContactNumberLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Emergency contact number"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeEmergencyContactNumberTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeEmergencyContactPersonLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Emergency contact person"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeEmergencyContactPersonTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeEmergencyContactRelationshipLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Relationship with emergency contact person"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeEmergencyContactRelationshipTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeCorrespondanceAddressLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Correspondance Address"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeCorrespondanceAddressTextField">
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="newEmployeeEmploymentDetailsPanel">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Employment Details"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="newEmployeeDapartmentLabel" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeDesignationLabel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="newEmployeeDesignationTextField" max="32767" attributes="0"/>
+                              <Component id="newEmployeeDepartmentTextField" min="-2" pref="134" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="261" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="newEmployeeIDLabel" min="-2" pref="105" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="newEmployeeIDTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="newEmployeeManagerIDLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="newEmployeeManagerIDTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="newEmployeeDateOfJoinLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="newEmployeeDateOfJoiningTextField" min="-2" pref="250" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="newEmployeeOTRateTextField" min="-2" pref="344" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="newEmployeeBankAccountNumberLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeBankNameLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeBankBranchLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="newEmployeeBankBranchTextField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="newEmployeeBankNumberTextField" alignment="0" max="32767" attributes="0"/>
+                                      <Component id="newEmployeeBankNameTextField" alignment="1" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="84" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="newEmployeeQualificationsLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeAgreementLabel" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeEmploymentStatusLabel" min="-2" pref="117" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="newEmployeeWorkHoursPerDayLabel" min="-2" pref="130" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeSalaryLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeWorkWeekLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <Component id="newEmployeeWorkHoursPerDayTextField" min="-2" pref="82" max="-2" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" attributes="0">
+                                                  <Component id="newEmployeeSalaryTextField" max="32767" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="180" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeMondayCheckBox" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="newEmployeeTuesdayCheckBox" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="newEmployeeWednesdayCheckBox" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="newEmployeeThursdayCheckBox" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="newEmployeeFridayCheckBox" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="newEmployeeSaturdayCheckBox" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="newEmployeeSundayCheckBox" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="newEmployeeCalculateHourRateButton" min="-2" pref="157" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="newEmployeeCalculateHourRateTextField" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="newEmployeeAgreementUploadButton" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeQualificationsUploadButton" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="newEmployeeAgreementFileName" max="32767" attributes="0"/>
+                                      <Component id="newEmployeeQualificationsFileName" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="newEmployeeQualificationsViewButton" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeQualificationsRemoveButton" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="newEmployeeAgreementViewButton" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeAgreementRemoveButton" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeActiveRadioButton" min="-2" pref="67" max="-2" attributes="0"/>
+                                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeInactiveRadioButton" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="newEmployeeOTRateLabel" min="-2" pref="58" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeDapartmentLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeDepartmentTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeIDTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeManagerIDLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeManagerIDTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeDateOfJoinLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeDateOfJoiningTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeDesignationTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeDesignationLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeSundayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeSaturdayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeFridayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeThursdayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeWednesdayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeTuesdayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeMondayCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeWorkWeekLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeOTRateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeOTRateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeWorkHoursPerDayTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeWorkHoursPerDayLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="newEmployeeSalaryTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeSalaryLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeCalculateHourRateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="newEmployeeCalculateHourRateButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace pref="237" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="newEmployeeBankAccountNumberLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newEmployeeBankNumberTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newEmployeeQualificationsLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newEmployeeQualificationsUploadButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="newEmployeeQualificationsFileName" min="-2" pref="22" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="newEmployeeQualificationsViewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="newEmployeeQualificationsRemoveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="21" pref="21" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="newEmployeeBankNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeBankNameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="newEmployeeAgreementFileName" min="-2" pref="22" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="3" attributes="0">
+                                          <Component id="newEmployeeAgreementLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeAgreementUploadButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="newEmployeeAgreementRemoveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="newEmployeeAgreementViewButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="newEmployeeEmploymentStatusLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeActiveRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeInactiveRadioButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="newEmployeeBankBranchLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="newEmployeeBankBranchTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="newEmployeeDesignationLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Designation"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeDesignationTextField">
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeSalaryTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeAgreementLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Employment Agreement"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="newEmployeeAgreementUploadButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Upload"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeAgreementUploadButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeIDLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Employee ID"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeIDTextField">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeEmploymentStatusLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Employment status"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="newEmployeeActiveRadioButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="employmentStatusButtonGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Active"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="newEmployeeInactiveRadioButton">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="employmentStatusButtonGroup"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Inactive"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeDateOfJoinLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Date of joining"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeDateOfJoiningTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeBankAccountNumberLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bank Account Number"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeBankNumberTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeBankNameLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bank name "/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeBankNameTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeBankBranchLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Bank branch"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeBankBranchTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeManagerIDLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Manager ID"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeManagerIDTextField">
+                </Component>
+                <Component class="javax.swing.JButton" name="newEmployeeAgreementViewButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="View"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeAgreementViewButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeAgreementFileName">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeDapartmentLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Department"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeDepartmentTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeQualificationsLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Qualifications"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="newEmployeeQualificationsUploadButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Upload"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeQualificationsUploadButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="newEmployeeQualificationsViewButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="View"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeQualificationsViewButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeQualificationsFileName">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeOTRateLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="OT Rate"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeCalculateHourRateTextField">
+                  <Properties>
+                    <Property name="editable" type="boolean" value="false"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeOTRateTextField">
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="newEmployeeMondayCheckBox">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Mon"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="newEmployeeTuesdayCheckBox">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Tue"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeTuesdayCheckBoxActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="newEmployeeWednesdayCheckBox">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Wed"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="newEmployeeThursdayCheckBox">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Thu"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="newEmployeeFridayCheckBox">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Fri"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="newEmployeeSaturdayCheckBox">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sat"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="newEmployeeSundayCheckBox">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Sun"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeWorkWeekLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Work Week"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="newEmployeeWorkHoursPerDayTextField">
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeWorkHoursPerDayLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Work hours per day"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="newEmployeeSalaryLabel">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Salary"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="newEmployeeCalculateHourRateButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Calculate Hour Rate"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeCalculateHourRateButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="newEmployeeQualificationsRemoveButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Remove"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeQualificationsRemoveButtonActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JButton" name="newEmployeeAgreementRemoveButton">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Remove"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeAgreementRemoveButtonActionPerformed"/>
+                  </Events>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Component class="javax.swing.JButton" name="newEmployeeClearFormButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Clear The Form"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="newEmployeeClearFormButtonActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
