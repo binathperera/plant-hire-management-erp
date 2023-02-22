@@ -96,7 +96,7 @@ In addition to the above-mentioned modules depot staff managers requests limited
     • Search for all users or filter a user by employee ID.
     • Remove user.
 
-## Owner requirements
+## For company manager
 
 ### Daily overview
     • View details such as total employees, employees clocked in, net asset value and liabilities.
