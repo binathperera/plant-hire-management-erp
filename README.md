@@ -1,8 +1,8 @@
 # Plant-Hire-Management-ERP
 
-Language: Java
-Database: MongoDB
-Design patterns used: DAO Factory, Singleton
+* Language: Java
+* Database: MongoDB
+* Design patterns used: DAO Factory, Singleton
 
 # Business Process
 
@@ -123,58 +123,58 @@ In addition to the above-mentioned modules owner requires the ability to turn on
 
 ## Dashboard
 
-[Dashboard](ReadmeResources/main.JPG)
+![Dashboard](ReadmeResources/main.JPG)
 
 ## Customers module
 
-[Dashboard](ReadmeResources/main.JPG)
+![Customers](ReadmeResources/main.JPG)
 
 ## Items module
 
-[Dashboard](ReadmeResources/main.JPG)
+![Items](ReadmeResources/main.JPG)
 
 ## Orders module
 
-[Dashboard](ReadmeResources/main.JPG)
+![Orders](ReadmeResources/main.JPG)
 
 ## Enquiries module
 
-[Dashboard](ReadmeResources/main.JPG)
+![Enquiries](ReadmeResources/main.JPG)
 
 ## Transport module
 
-[Dashboard](ReadmeResources/main.JPG)
+[Transport](ReadmeResources/main.JPG)
 
 ## Users module
 
-[Dashboard](ReadmeResources/main.JPG)
+[Users](ReadmeResources/main.JPG)
 
-## Employees
+## Employee module
 
-[Dashboard](ReadmeResources/main.JPG)
+[Employees](ReadmeResources/main.JPG)
 
-## Reports
+## Report module
 
-[Dashboard](ReadmeResources/main.JPG)
+[Reports](ReadmeResources/main.JPG)
 
-## Settings
+## Settings module
 
-[Dashboard](ReadmeResources/main.JPG)
+[Settings](ReadmeResources/main.JPG)
 
 # Development
 
-[Dashboard](ReadmeResources/Architecture.png)
+![Architecture](ReadmeResources/Architecture.png)
 
 ## Application
 
-[ERD 1](ReadmeResources/layeredArchitecture.png)
+![Layerd Architecture](ReadmeResources/layeredArchitecture.png)
 
 **Design patterns used include Singleton and DAO Factory**
 
 ## Database ERD
 
-[ERD 1](ReadmeResources/ER_diagram_1.png)
-[ERD 2](ReadmeResources/ER_diagram_2.png)
+![ERD 1](ReadmeResources/ER_diagram_1.png)
+![ERD 2](ReadmeResources/ER_diagram_2.png)
 
 ## UML Diagrams
 
