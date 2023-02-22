@@ -2,6 +2,8 @@
 
 * Language: Java
 * Database: MongoDB
+* Image Storage: MongoDB Grid FS
+* Reporting: Jasper
 * Design patterns used: DAO Factory, Singleton
 
 # Business Process
