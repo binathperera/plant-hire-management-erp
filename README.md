@@ -6,7 +6,7 @@
 
 # Business Process
 
-[Business Process](ReadmeResources/Buisness-Process.png)
+![Business Process](ReadmeResources/Buisness-Process.png)
 
 # Features
 
@@ -119,48 +119,6 @@ In addition to the above-mentioned modules owner requires the ability to turn on
     • Ability to change the password
     • Light and dark modes
 
-# Interfaces
-
-## Dashboard
-
-![Dashboard](ReadmeResources/main.JPG)
-
-## Customers module
-
-![Customers](ReadmeResources/main.JPG)
-
-## Items module
-
-![Items](ReadmeResources/main.JPG)
-
-## Orders module
-
-![Orders](ReadmeResources/main.JPG)
-
-## Enquiries module
-
-![Enquiries](ReadmeResources/main.JPG)
-
-## Transport module
-
-[Transport](ReadmeResources/main.JPG)
-
-## Users module
-
-[Users](ReadmeResources/main.JPG)
-
-## Employee module
-
-[Employees](ReadmeResources/main.JPG)
-
-## Report module
-
-[Reports](ReadmeResources/main.JPG)
-
-## Settings module
-
-[Settings](ReadmeResources/main.JPG)
-
 # Development
 
 ![Architecture](ReadmeResources/Architecture.png)
@@ -176,5 +134,53 @@ In addition to the above-mentioned modules owner requires the ability to turn on
 ![ERD 1](ReadmeResources/ER_diagram_1.png)
 ![ERD 2](ReadmeResources/ER_diagram_2.png)
 
-## UML Diagrams
+# Interfaces
+
+## Dashboard
+
+![Dashboard](ReadmeResources/main.JPG)
+
+## Customers module
+
+![Customers](ReadmeResources/customersPanel.JPG)
+
+## Items module
+
+![Items](ReadmeResources/itemsPanel.JPG)
+
+## Orders module
+
+![Orders](ReadmeResources/newOrderPanel.JPG)
+![Orders](ReadmeResources/orderItemDetails.JPG)
+![Orders](ReadmeResources/orderPaymentDetails.JPG)
+![Orders](ReadmeResources/overDuePaymentsPanel.JPG)
+
+## Enquiries module
+
+![Enquiries](ReadmeResources/manageEnquiriesPanel.JPG)
+![Enquiries](ReadmeResources/invoicesToSendPanel.JPG)
+
+## Transport module
+
+![Transport](ReadmeResources/transportPanel.JPG)
+
+## Users module
+
+![Users](ReadmeResources/manageUsers.JPG)
+
+## Employee module
+
+![Employees](ReadmeResources/newEmployeePanel.JPG)
+![Employees](ReadmeResources/existingEmployeeJobDetailsPanel.JPG)
+![Employees](ReadmeResources/existingEmployeeOtherDetailsPanel.JPG)
+
+## Report module
+
+![Reports](ReadmeResources/reports.JPG)
+
+## Settings module
+
+![Settings](ReadmeResources/settingsPanel.JPG)
+
+
 
