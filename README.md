@@ -1,3 +1,9 @@
+# Plant-Hire-Management-ERP
+
+Language: Java
+Database: MongoDB
+Design patterns used: DAO Factory, Singleton
+
 # Business Process
 
 [Business Process](ReadmeResources/Buisness-Process.png)
@@ -171,3 +177,4 @@ In addition to the above-mentioned modules owner requires the ability to turn on
 [ERD 2](ReadmeResources/ER_diagram_2.png)
 
 ## UML Diagrams
+
