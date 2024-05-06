@@ -127,7 +127,7 @@ In addition to the above-mentioned modules owner requires the ability to turn on
 
 ![Architecture](ReadmeResources/Architecture.png)
 
-**This repository contains the native java application used by employees. The web application was developed as a seperate project.
+**This repository contains the native java application used by employees. The web application was developed as a seperate project.**
 
 ## Application
 
