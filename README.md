@@ -1,7 +1,9 @@
 # Plant-Hire-Management-ERP
 
+This is a system built to improve the productivity of a plant hire management company. This was done by introducing a java based 
+software application which enhanced the speed of operations compared to using a manual bookeeping system.
 * Language: Java SE. No frameworks or ORM tools were used. Pure Java with JDBC. 
-* Database: MongoDB
+* Database: MongoDB (Since a NoSQL database was used, entities were denormalized appropriately to strike a balance between data redundancy and performance)
 * Image Storage: MongoDB Grid FS 
 * Reporting: Jasper
 * Design patterns used: DAO Factory, Singleton
