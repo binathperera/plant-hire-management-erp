@@ -1,8 +1,8 @@
 # Plant-Hire-Management-ERP
 
-* Language: Java
+* Language: Java SE. No frameworks or ORM tools were used. Pure Java with JDBC. 
 * Database: MongoDB
-* Image Storage: MongoDB Grid FS
+* Image Storage: MongoDB Grid FS 
 * Reporting: Jasper
 * Design patterns used: DAO Factory, Singleton
 
